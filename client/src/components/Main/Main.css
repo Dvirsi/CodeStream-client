@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Montserrat:wght@500&display=swap');
+
+.pageTitle  {
+    padding: 48px;
+}
+
+.mainContainer {
+    font-family: 'Montserrat', sanss-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: #191B32;
+    color: white;
+}
+
+.codeBlock {
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    padding: 16px;
+    max-width: 80%;
+    width: 600px;
+    min-height: 140px;
+    background: #2A2c42;
+    border: 1px solid #4C4E67;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+    margin-bottom: 32px;
+}
+
+.codeBlock:hover {
+    background: #30324C;
+    transition: 0.3s;
+}
+
+.difficultyLabel {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+}
+
+.difficultyLabelText {
+    padding: 8px;
+    font-family: 'DM Sans';
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.description {
+    width: 92%;
+}
+
+.title {
+    font-family: 'DM Sans';
+    font-weight: 500;
+}
+
+.logo {
+    position: absolute;
+    top: 36px;
+    left: 36px;
+    width: 120px;
+    height: auto;
+}
